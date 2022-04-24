@@ -187,7 +187,7 @@ img {
 .collection::before {
     position: absolute;
     top: 100px;
-    left: calc(50% - 850px);
+    left: calc(50% - 765px);
     display: block;
     width: 402px;
     height: 300px;
@@ -199,11 +199,11 @@ img {
 
 .collection::after {
     position: absolute;
-    bottom: 650px;
-    left: calc(50% + 320px);
+    bottom: 550px;
+    left: calc(50% + 400px);
     display: block;
-    width: 402px;
-    height: 300px;
+    width: 392px;
+    height: 477px;
     background-image: url(../images/baylar-jamlamasi.png);
     background-repeat: no-repeat;
     background-size: 402px 300px;
@@ -221,12 +221,13 @@ img {
     width: 1114px;
     margin-left: auto;
     margin-right: auto;
+    padding: 50px 0;
 }
 
 .collection__inner__sub::before {
     position: absolute;
-    right: calc(50% + 560px);
-    bottom: 10%;
+    right: calc(50% + 470px);
+    bottom: 15%;
     display: block;
     width: 316px;
     height: 269px;
@@ -245,7 +246,7 @@ img {
     text-align: center;
     font-variant: small-caps;
     color: #000000;
-    padding: 50px 0 80px;
+    padding: 0 0 80px 0;
     margin: 0;
     /* margin-left: auto;
     margin-right: auto; */
@@ -277,7 +278,7 @@ img {
 }
 
 .colection__left {
-    width: 453px;
+    width: 390px;
 }
 
 .colletion__subtitle {
@@ -305,6 +306,6 @@ img {
 }
 
 .collection__img__active {
-    /* padding-bottom: 50px; */
     padding-right: 0;
+    padding-left: 117px;
 }
