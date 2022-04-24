@@ -275,11 +275,11 @@ img {
     flex-direction: row-reverse;
 }
 
-.colection-left {
+.colection__left {
     width: 453px;
 }
 
-.colletion__sub__title {
+.colletion__subtitle {
     font-style: normal;
     font-weight: 500;
     font-size: 48px;
@@ -289,7 +289,7 @@ img {
     margin: 0 0 10px;
 }
 
-.collection__sub__text {
+.collection__subtext {
     font-style: normal;
     font-weight: 400;
     font-size: 22px;
