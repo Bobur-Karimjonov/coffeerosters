@@ -212,6 +212,8 @@ img {
 
 .collection__inner {
     background-color: #F8F8F2;
+    background-image: url("../images/Rectangle.png");
+    background-blend-mode: overlay;
     padding-bottom: 50px;
 }
 
