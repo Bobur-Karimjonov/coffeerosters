@@ -66,6 +66,9 @@ img {
 }
 
 .header {
+    position: fixed;
+    width: 100%;
+    z-index: 100;
     padding: 40px 0;
     background-image: url(../images/ceriy-fon.png);
     background-repeat: no-repeat;
