@@ -454,7 +454,7 @@ img {
     justify-content: space-between;
     background-image: url(../images/line.png);
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: calc(50%) calc(40%);
     padding-bottom: 20px;
 }
 
