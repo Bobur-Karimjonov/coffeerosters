@@ -39,6 +39,8 @@ body {
     padding: 0;
     font-family: 'Roboto', 'Times New Roman', sans-serif;
     background-color: #FFFFFF;
+    /* overflow: hidden;     */
+    /* overflow-y: hidden; */
 }
 
 .visually-hidden {
@@ -187,7 +189,7 @@ img {
 .collection::before {
     position: absolute;
     top: 100px;
-    left: calc(50% - 765px);
+    right: calc(50% + 500px);
     display: block;
     width: 402px;
     height: 300px;
@@ -200,7 +202,7 @@ img {
 .collection::after {
     position: absolute;
     bottom: 550px;
-    left: calc(50% + 400px);
+    left: calc(50% + 575px);
     display: block;
     width: 392px;
     height: 477px;
@@ -226,7 +228,7 @@ img {
 
 .collection__inner__sub::before {
     position: absolute;
-    right: calc(50% + 470px);
+    right: calc(50% + 615px);
     bottom: 15%;
     display: block;
     width: 316px;
@@ -308,4 +310,283 @@ img {
 .collection__img__active {
     padding-right: 0;
     padding-left: 117px;
+}
+
+.chooseus {
+    background-image: url(../images/vjr-vjr.png);
+    background-repeat: no-repeat;
+    background-color: #C99B67;
+    background-size: 100%;
+    background-blend-mode: overlay;
+    padding: 20px;
+}
+
+.chooseus__inner {
+    position: relative;
+    width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 50px;
+}
+
+.chooseus__inner::before {
+    position: absolute;
+    z-index: 2;
+    left: -55px;
+    top: 33%;
+    display: block;
+    background-image: url(../images/Group.svg);
+    background-repeat: no-repeat;
+    width: 140px;
+    height: 144px;
+    content: "";
+}
+
+.chooseus__inner-top {
+    width: 581px;
+    text-align: center;
+    margin: 0 auto;
+    padding-bottom: 500px;
+}
+
+.chooseus__title {
+    margin: 0;
+    margin-bottom: 10px;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 59px;
+    /* identical to box height */
+    text-align: center;
+    font-variant: small-caps;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+
+.chooseus__text {
+    margin: 0;
+    margin-bottom: 10px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    /* or 175% */
+    text-align: center;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+}
+
+.chooseus__list {
+    position: absolute;
+    top: 40%;
+    right: 100px;
+    margin: 0;
+    /* margin-right: auto; */
+    /* margin-left: auto; */
+    padding: 0;
+    padding-bottom: 80px;
+    display: flex;
+    list-style: none;
+}
+
+.chooseus__item {
+    /* position: absolute; */
+    width: 450px;
+    padding: 0 10px 0 15px;
+}
+
+.chooseus__img {
+    margin-bottom: 28px;
+}
+
+.chooseus__item-title {
+    margin: 0;
+    margin-bottom: 10px;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 35px;
+    font-variant: small-caps;
+    color: #333333;
+    text-transform: uppercase;
+}
+
+.chooseus__item-text {
+    margin: 0;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    /* or 156% */
+    color: #333333;
+}
+
+.itworks {
+    margin-top: 280px;
+    margin-bottom: 50px;
+    padding: 20px;
+    background-blend-mode: overlay;
+    background-image: url(../images/ceriy-fon.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: #0A775F;
+}
+
+.itworks__inner {
+    padding: 50px 30px 60px;
+}
+
+.itworks__title {
+    margin: 0;
+    padding-bottom: 80px;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 59px;
+    /* identical to box height */
+    text-align: center;
+    font-variant: small-caps;
+    color: #FFFFFF;
+}
+
+.itworks__content {
+    width: 925px;
+    display: flex;
+    justify-content: space-between;
+    background-image: url(../images/line.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-bottom: 20px;
+}
+
+.content__span {
+    display: block;
+    width: 60px;
+    height: 60px;
+    background: #F8F8F2;
+    border: 4px solid #C99B67;
+}
+
+.itworks__list {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.itworks__item {
+    width: 433px;
+    background-color: #F8F8F2;
+    padding: 20px 20px 40px 20px;
+    margin-left: 20px;
+}
+
+.itworks__item:nth-child(1) {
+    margin-left: 0
+}
+
+.itworks__item-span {
+    display: block;
+    margin-bottom: 45px;
+    margin-left: 300px;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 75px;
+    /* identical to box height */
+    font-variant: small-caps;
+    color: #333333;
+    opacity: 0.8
+}
+
+.itworks__item-title {
+    margin: 0;
+    margin-bottom: 10px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 47px;
+    font-variant: small-caps;
+    color: #333333;
+    text-transform: uppercase;
+}
+
+.itworks__item-text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    /* or 156% */
+    color: #333333;
+    margin: 0;
+}
+
+.itworks__inner-link {
+    display: block;
+    width: 193px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #fff;
+    margin: auto;
+    background: #C99B67;
+    border-radius: 100px;
+    padding: 16px 24px;
+    text-decoration: none;
+    /* text-transform: uppercase; */
+    margin-bottom: 50px;
+}
+
+.footer {
+    background-image: url(../images/ceriy-fon.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: #F3D7B7;
+    background-blend-mode: overlay;
+}
+
+.footer__inner {
+    padding: 65px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer__inner-list {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.footer__inner-item {
+    margin-right: 40px;
+}
+
+.first {
+    margin-right: 0;
+}
+
+.footer__inner-link {
+    display: block;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #333333;
+    text-decoration: none;
+}
+
+.footer__inner-right {
+    display: flex;
+    align-items: center;
+}
+
+.right__link {
+    display: block;
+    margin-right: 30px;
+}
+
+.firstt {
+    margin-right: 0;
 }
